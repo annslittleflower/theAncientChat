@@ -1,0 +1,11 @@
+{
+    "name": "anothersocketchat",
+    "version": "1.0.0",
+    "description": "the CHAT",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest"
+    },
+    "author": "annslittleflower"
+}

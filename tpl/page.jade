@@ -1,0 +1,12 @@
+doctype
+html
+head
+    title="CHAT TO ANOTHER WORLD"
+    meta(charset='utf-8')
+    script(src='/chat.js')
+    script(src='socket.io/socket.io.js')
+body
+    form#form(onsubmit='return false' style='position:fixed; top:0;')
+        input#field
+        input#send(type='submit', value='send')
+    #content(style='margin-top:30px')
